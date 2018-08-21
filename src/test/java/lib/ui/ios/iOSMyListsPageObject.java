@@ -1,7 +1,7 @@
 package lib.ui.ios;
 
-import io.appium.java_client.AppiumDriver;
 import lib.ui.MyListsPageObject;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class iOSMyListsPageObject extends MyListsPageObject {
 
@@ -14,7 +14,7 @@ public class iOSMyListsPageObject extends MyListsPageObject {
         SECOND_TITLE_IN_THE_LIST = "xpath://*[@resource-id = 'org.wikipedia:id/page_list_item_title'][@text = 'Swift (programming language)']";
     }
 
-    public iOSMyListsPageObject(AppiumDriver driver)
+    public iOSMyListsPageObject(RemoteWebDriver driver)
     {
         super(driver);
     }
