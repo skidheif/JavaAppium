@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54738b44-5a29-4ec9-989f-03acb061c077" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/ui/AuthorizationPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWArticlePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWMyListsPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWNavigationUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/MainPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/NavigationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/NavigationUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/factories/ArticlePageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/factories/ArticlePageObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/factories/MyListsPageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/factories/MyListsPageObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/factories/NavigationUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/factories/NavigationUIFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWSearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWSearchPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ArticleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ArticleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChangeAppConditionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeAppConditionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetStartedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetStartedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyListsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,38 +23,8 @@
       <file leaf-file-name="MyListsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/MyListsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="159" selection-start-line="159" selection-end-line="159" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JUnit38ClassRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JUnitCore.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyListsPageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="133" column="8" lean-forward="true" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="36" />
+            <state relative-caret-position="805">
+              <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +35,8 @@
       <file leaf-file-name="ArticlePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="96" column="38" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="38" />
+            <state relative-caret-position="345">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,9 +97,9 @@
         <option value="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWMyListsPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/lib/ui/mobile_web/MWSearchPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/MyListsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java" />
       </list>
     </option>
   </component>
@@ -276,64 +229,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -615,12 +510,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArticleTests_testSwipeArticle - 2018.08.28 at 11h 52m 54s.xml">
-      <configuration name="ArticleTests.testSwipeArticle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyListsTest_testEx5SaveTwoArticleToMyListAndDelete - 2018.08.28 at 13h 20m 36s.xml">
-      <configuration name="MyListsTest.testEx5SaveTwoArticleToMyListAndDelete" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyListsTest_testEx5SaveTwoArticleToMyListAndDelete - 2018.08.28 at 13h 21m 02s.xml">
       <configuration name="MyListsTest.testEx5SaveTwoArticleToMyListAndDelete" configurationId="JUnit" />
     </history-entry>
@@ -645,6 +534,12 @@
     <history-entry file="MyListsTest_testEx5SaveTwoArticleToMyListAndDelete - 2018.08.28 at 13h 27m 03s.xml">
       <configuration name="MyListsTest.testEx5SaveTwoArticleToMyListAndDelete" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyListsTest_testEx5SaveTwoArticleToMyListAndDelete - 2018.08.28 at 13h 32m 43s.xml">
+      <configuration name="MyListsTest.testEx5SaveTwoArticleToMyListAndDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyListsTest_testEx5SaveTwoArticleToMyListAndDelete - 2018.08.28 at 13h 33m 56s.xml">
+      <configuration name="MyListsTest.testEx5SaveTwoArticleToMyListAndDelete" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-306" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -659,11 +554,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3044776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3044776" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14536741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14536741" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -686,13 +581,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/MyListsTest.java</url>
-          <line>153</line>
+          <url>file://$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java</url>
+          <line>123</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1084,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="96" column="38" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1110,8 +995,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/MyListsPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="133" column="8" lean-forward="true" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="36" />
+        <state relative-caret-position="411">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1120,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/MyListsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="805">
+          <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -100,7 +100,7 @@ public class MyListsTest extends CoreTestCase {
                     "Swift",
                     first_element_in_list
             );
-        } else if (Platform.getInstance().isIOS()) {
+        } else if (Platform.getInstance().isIOS()){
             SearchPageObject.clickByArticleWithSubstring("Family of birds");
             ArticlePageObject.waitForTitleElementForIOS1();
             ArticlePageObject.addArticlesToMySaved();
@@ -121,42 +121,41 @@ public class MyListsTest extends CoreTestCase {
                     "Swift (programming language)",
                     first_element_in_list
             );
-//        } else if (Platform.getInstance().isMW()){
-//            ArticlePageObject.waitForTitleElement();
-//            SearchPageObject.clickByArticleWithSubstring("amily of birds");
-//
-//            ArticlePageObject.waitForTitleElementForMW1();
-//            ArticlePageObject.addArticlesToMySaved();
-//
-//            Auth.clickAuthButton();
-//            Auth.enterLoginData(login, password);
-//            Auth.submitForm();
-//
-//            ArticlePageObject.waitForTitleElement();
-//
-//            SearchPageObject.initSearchInput();
-//            SearchPageObject.typeSearchLine("Swift");
-//            SearchPageObject.clickByArticleWithSubstring("eneral-purpose, multi-paradigm, compiled programming language");
-//            ArticlePageObject.waitForTitleElementForMW2();
-//
-//            ArticlePageObject.addArticlesToMySaved();
-//
-//            NavigationUI.openNavigation();
-//            NavigationUI.clickMyLists();
-//            MyListsPageObject.swipeByArticleToDeleteForMW();
-//
-//            NavigationUI.openNavigation();
-//            NavigationUI.clickMyLists();
-//
-//            SearchPageObject.clickByArticleWithSubstringForMW();
-//            ArticlePageObject.waitForTitleElementForMW1();
-//            String first_element_in_list = ArticlePageObject.getArticleTitleForMW();
-//            assertEquals(
-//                    "We see unexpected title",
-//                    "Swift",
-//                    first_element_in_list
-//            );
-//        }
+        } else if (Platform.getInstance().isMW()){
+            ArticlePageObject.waitForTitleElement();
+            SearchPageObject.clickByArticleWithSubstring("amily of birds");
+
+            ArticlePageObject.waitForTitleElementForMW1();
+            ArticlePageObject.addArticlesToMySaved();
+
+            Auth.clickAuthButton();
+            Auth.enterLoginData(login, password);
+            Auth.submitForm();
+
+            ArticlePageObject.waitForTitleElement();
+
+            SearchPageObject.initSearchInput();
+            SearchPageObject.typeSearchLine("Swift");
+            SearchPageObject.clickByArticleWithSubstring("eneral-purpose, multi-paradigm, compiled programming language");
+            ArticlePageObject.waitForTitleElementForMW2();
+
+            ArticlePageObject.addArticlesToMySaved();
+
+            NavigationUI.openNavigation();
+            NavigationUI.clickMyLists();
+            MyListsPageObject.swipeByArticleToDeleteForMW();
+
+            NavigationUI.openNavigation();
+            NavigationUI.clickMyLists();
+
+            SearchPageObject.clickByArticleWithSubstringForMW();
+            ArticlePageObject.waitForTitleElementForMW1();
+            String first_element_in_list = ArticlePageObject.getArticleTitleForMW();
+            assertEquals(
+                    "We see unexpected title",
+                    "Swift",
+                    first_element_in_list
+            );
         }
     }
     // End of the homework "Ex5: Тест: сохранение двух статей"
