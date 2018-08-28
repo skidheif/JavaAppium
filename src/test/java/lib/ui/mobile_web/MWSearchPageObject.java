@@ -12,6 +12,7 @@ public class MWSearchPageObject extends SearchPageObject {
         SEARCH_RESULT_BY_SUBSTRING_TPL = "xpath://div[contains(@class,'wikidata-description')][contains(text(),'{SUBSTRING}')]";
         SEARCH_RESULT_ELEMENT = "css://ul.page-list>li.page-summary";
         SEARCH_EMPTY_RESULT_ELEMENT = "css:p.without-results";
+        FIRST_ELEMENT_IN_LIST_FOR_MW = "xpath://*[@id=\"mw-content-text\"]/ul/li[1]/a/h3";
 
         ELEMENTS_IN_LIST = "css://*[@resource-id = 'org.wikipedia:id/page_list_item_container'][@index = '{INDEX_OF_TITLE}']";
         MY_TITLE_NAME_INPUT = "id:org.wikipedia:id/search_src_text";

@@ -12,7 +12,10 @@ abstract public class MyListsPageObject extends MainPageObject {
             THE_FIRST_ARTICLE_IN_LIST_PATH,
             TITLE_OF_THE_FIRST_ARTICLE_IN_LIST,
             XPATH_FOR_SECOND_ELEMENT_IN_LIST_IOS,
-            SECOND_TITLE_IN_THE_LIST;
+            XPATH_FOR_SECOND_ELEMENT_IN_LIST_MW,
+            XPATH_FOR_SECOND_ELEMENT_IN_LIST_MW_DELETE,
+            SECOND_TITLE_IN_THE_LIST,
+            REMOVED_FROM_SAVED_BUTTON;
 
     private static String getFolderXpathByName(String name_of_folder)
     {
@@ -20,6 +23,11 @@ abstract public class MyListsPageObject extends MainPageObject {
     }
 
     private static String getSavedArticleXpathByTitle(String article_title)
+    {
+        return REMOVED_FROM_SAVED_BUTTON.replace("{TITLE}", article_title);
+    }
+
+    private static String getRemoveLocatorByTitle(String article_title)
     {
         return ARTICLE_BY_TITLE_TPL.replace("{TITLE}", article_title);
     }
@@ -68,6 +76,11 @@ abstract public class MyListsPageObject extends MainPageObject {
         String article_xpath = XPATH_FOR_SECOND_ELEMENT_IN_LIST_IOS;
         this.waitForElementNotPresent((article_xpath), "Saved article still present with title ", 15);
     }
+    public void waitForArticleToDisappearByTitleForMW()
+    {
+        String article_xpath = XPATH_FOR_SECOND_ELEMENT_IN_LIST_MW;
+        this.waitForElementNotPresent((article_xpath), "Saved article still present with title ", 15);
+    }
 
     public void waitForArticleToDisappearSecondArticle(String article_title)
     {
@@ -80,16 +93,46 @@ abstract public class MyListsPageObject extends MainPageObject {
 
         this.waitForArticleToAppearByTitle(article_title);
         String article_xpath = getSavedArticleXpathByTitle(article_title);
-        this.swipeElementToLeft(
-                article_xpath,
-                "Cannot find save article"
-        );
+
+        if (Platform.getInstance().isIOS() || (Platform.getInstance().isAndroid())){
+            this.swipeElementToLeft(
+                    article_xpath,
+                    "Cannot find save article"
+            );
+        } else {
+            String remove_locator = getRemoveLocatorByTitle(article_title);
+            this.waitForElementAndClick(
+                    remove_locator,
+                    "Cannot click button to remove article from saved.",
+                    10
+            );
+        }
 
         if (Platform.getInstance().isIOS()){
             this.clickElementToTheRightUpperCorner(article_xpath, "Cannot find saved article");
         }
 
+        if (Platform.getInstance().isMW()){
+            driver.navigate().refresh();
+        }
+
         this.waitForArticleToDisappearByTitle(article_title);
+    }
+
+    public void swipeByArticleToDeleteForMW()
+    {
+        this.waitForElementPresent(
+                XPATH_FOR_SECOND_ELEMENT_IN_LIST_MW,
+                "Cannot find the second element in MW list",
+                30
+        );
+        this.waitForElementAndClick(
+                XPATH_FOR_SECOND_ELEMENT_IN_LIST_MW_DELETE,
+                "Cannot find the second element in MW list",
+                30
+        );
+        driver.navigate().refresh();
+        this.waitForArticleToDisappearByTitleForMW();
     }
 
     public void swipeBySecondArticleToDeleteForIOS()

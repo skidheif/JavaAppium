@@ -13,7 +13,8 @@ abstract public class SearchPageObject extends MainPageObject{
             SEARCH_EMPTY_RESULT_ELEMENT,
             ELEMENTS_IN_LIST,
             MY_TITLE_NAME_INPUT,
-            TITLE_CHECK_CLEAR;
+            TITLE_CHECK_CLEAR,
+            FIRST_ELEMENT_IN_LIST_FOR_MW;
 
     private static String getIndexOfTitle(int index_of_title)
     {
@@ -36,8 +37,8 @@ abstract public class SearchPageObject extends MainPageObject{
 
     public void initSearchInput()
     {
-        this.waitForElementAndClick((SEARCH_INIT_ELEMENT), "Cannot find and click search init element", 5);
-        this.waitForElementPresent((SEARCH_INIT_ELEMENT), "Cannot find search input after clicking search init element");
+        this.waitForElementAndClick((SEARCH_INIT_ELEMENT), "Cannot find and click search init element", 10);
+        this.waitForElementPresent((SEARCH_INIT_ELEMENT), "Cannot find search input after clicking search init element", 10);
     }
 
     public void waitForCancelButtonToAppear()
@@ -70,6 +71,12 @@ abstract public class SearchPageObject extends MainPageObject{
     {
         String search_result_xpath = getResultSearchElement(substring);
         this.waitForElementAndClick((search_result_xpath), "Cannot find and click search result with substring " + substring, 10);
+    }
+
+    public void clickByArticleWithSubstringForMW()
+    {
+        String search_result_xpath = FIRST_ELEMENT_IN_LIST_FOR_MW;
+        this.waitForElementAndClick((search_result_xpath), "Cannot find and click search result with substring " + search_result_xpath, 10);
     }
 
     public int getAmountOfFoundArticles()
